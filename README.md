@@ -138,6 +138,4 @@ Airport {capacity: 5, storedplanes: Array(0), weather: Weather}
 ```
 
 ## Supplementary Information
-  This can be found in the **[00_notes](https://github.com/lunaticnick/airport_challenge/tree/master/00_notes)** folder
-
- 
+  This can be found in the **[00_notes](https://github.com/lunaticnick/makersacademy-mcw05-airport-javascript/tree/master/00_notes)** folder
