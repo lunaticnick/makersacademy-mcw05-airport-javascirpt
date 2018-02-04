@@ -71,14 +71,14 @@ To have a look at the test for this app (written in [Jasmine](https://jasmine.gi
 
 **Use the app**
 
-Then you can start playing the game by using the following commands:
+Then you can start playing the game by opening ```airport.html```, located in root and using the following commands:
 
 - Create a new airport instance : ```airport = new Airport```
 - Create a new plane instance: ```plane = new Plane```
 - Dock a plane:  ```airport.dockPlane(plane)```
 - Launch a plane: ``` airport.launchPlane(plane)```
 
-Weather is controlled by a separate function, which randomises weather conditions, and we use dependancy injection to incorporate this in the program.module (called ***weaether***) that randomises weather conditions.
+Weather is controlled by a separate function, which randomises weather conditions, and we use dependancy injection to incorporate this in the program.module (called ***weather***) that randomises weather conditions.
 
 Create an airport and two planes:
 ```
@@ -96,8 +96,6 @@ Dock the planes into the airports
 ```
 > airport.dockPlane(plane1)
     airport.js:22 Plane docked
-
-
 ```
 
 Plane cannot be docked/land if already in airport
