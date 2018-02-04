@@ -19,11 +19,10 @@ Airport.prototype.dockPlane = function(plane){
   }
     this.storedplanes.push(plane);
     plane.land();
+    console.log("Plane docked")
   };
 
 Airport.prototype.launchPlane = function(plane){
-  console.log(this.weather);
-
   if(this.weather.isStormy() === true){
     throw new Error("Cannot Take off due to weather");
   }
@@ -33,4 +32,5 @@ Airport.prototype.launchPlane = function(plane){
   }
     this.storedplanes.pop(plane);
     plane.takeoff();
+    console.log("Plane launched")
 };
