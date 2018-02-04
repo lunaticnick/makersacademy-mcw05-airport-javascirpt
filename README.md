@@ -135,5 +135,9 @@ airport2 = new Airport(5)
 Airport {capacity: 5, storedplanes: Array(0), weather: Weather}
 ```
 
+## Future work
+- Fix a web interface
+- Fix error messaged when docking plane for first time, after we create the plane instance and the need to dock prior to issuing any further commands
+
 ## Supplementary Information
   This can be found in the **[00_notes](https://github.com/lunaticnick/makersacademy-mcw05-airport-javascript/tree/master/00_notes)** folder
